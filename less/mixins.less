@@ -1,1 +1,20 @@
 // Mixins Here
+.a(){
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: @nav-font;
+    padding-right: 3rem;
+}
+
+.top-logo(){
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.btn-sign-up(@bg-color, @color){
+    background: @bg-color;
+    color: @color;
+}
